@@ -104,6 +104,8 @@ problems.
 
 I didn't solve any exercises I did however do a project on SPH. I found code that did the SPH math in C then I converted it to C++ and then made it compatible for OMP and MPI. I added spatial binning to the code to make the neighbour search easier then I parallelized the code. I was able to add the spatial binning with some issues but I did eventually get there and adding OMP to it was quite easy in comparison. The hardest part was adding MPI. I had a lot of issues with it, for example I had made my serial code send pointers to save memory which I did not know was not allowed for MPI which set me back quite a bit. The hardest part about adding MPI was remembering which process has access to what information because a slight oversight in that aspect would affect all the calculations. So what I had to do was each time there was a bug I would output the information that each process has, to see if there were any differences and if there was I knew I wasn't sharing information that the other processes needed.
 
+**(Repository)** 
+https://github.com/bhoomi221/D94-Project
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 
