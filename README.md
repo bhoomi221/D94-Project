@@ -11,7 +11,7 @@ To visualize the output\
 make view
 
 Can use the shell scripts to reproduce the results\
-find results in:\
+find results in:
 - output-mpi-strong
 - output-omp-strong
 - results.csv
