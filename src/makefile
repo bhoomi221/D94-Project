@@ -24,7 +24,7 @@ integration.o: integration.cpp integration.hpp particle.hpp
 
 # =======
 view: 
-	java -jar ../code/Bouncy.jar run.out
+	java -jar Bouncy.jar run.out
 mpi:
 	mpirun -n 3 ./main
 tag: 
